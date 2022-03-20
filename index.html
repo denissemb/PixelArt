@@ -1,0 +1,47 @@
+<html>
+    <body>
+        <header>
+          <title>Pixel Art</title>  
+          <h1 class="tittle">Pixel Art</h1>
+        
+          <!-- CSS link -->
+          <link rel="stylesheet" href="style.css"> 
+        </header>       
+
+        <!-- Color list -->
+        <div class="list">
+            <div class="colors brown" onclick="colorChange('brown')"></div>
+            <div class="colors red" onclick="colorChange('red')"></div>
+            <div class="colors blue" onclick="colorChange('blue')"></div>
+            <div class="colors yellow" onclick="colorChange('yellow')"></div>
+            <div class="colors white" onclick="colorChange('white')"></div>
+            <div class="colors black" onclick="colorChange('black')"></div>
+            <div class="colors green" onclick="colorChange('green')"></div>
+            <div class="colors pink" onclick="colorChange('pink')"></div>
+            <div class="colors orange" onclick="colorChange('orange')"></div>
+            <div class="colors purple" onclick="colorChange('purple')"></div>
+            
+            
+            <!-- Grid size options-->
+            <div class="vertical">
+                <div class="button" onclick="createBoard(8)"><span>8x8</span></div>
+                <div class="button" onclick="createBoard(16)"><span>16x16</span></div>
+                <div class="button" onclick="createBoard(32)"><span>32x32</span></div>
+            </div>
+            
+            <span style="margin-left:200px;">Color picked:</span>
+            <div id="color" class="color picked pixel"></div>
+        </div>
+
+        <!-- Reset button-->
+        <div class="navbar">
+            <button class="btn"onclick="resetBoard()">Reset</button>           
+        </div>
+
+        <!-- Container class-->
+        <div id="container"></div> 
+
+        <!-- JavaScript link -->
+        <script src="app.js"></script>
+    </body>
+</html>

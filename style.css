@@ -1,0 +1,96 @@
+
+   /* Tittle configuration*/
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 3em;
+        margin-right: auto;              
+    }
+    
+    /*Container configuration*/
+    .container {
+        width: 100vw;
+        height: auto;   
+    }
+
+    .button {
+        width: 50px;
+        height: 20px;
+        background-color: white;
+        border: 1px solid black;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .button:hover {
+        background-color: lightblue;
+    }
+    
+    .list {
+        display: flex;
+        flex-direction: row;
+        padding: 10 10 2 2;
+    }
+    .color {
+        width: 10vw;
+        height: 10vw;
+        cursor: pointer;
+        max-width: 60px;
+        max-height: 60px;
+        min-width:50px;
+        
+    }
+    .colors {
+        width: 10vw;
+        height: 10vw;
+        cursor: pointer;
+        max-width: 35px;
+        max-height: 35px;
+        border: 0.5px solid black;
+        margin: 5px;
+    }
+    .color:hover {
+        background-color: lightblue;
+    }
+    .brown {
+        background-color: brown;
+    }
+    .red {
+        background-color: red;
+    }
+    .blue {
+        background-color: blue;
+    }
+    .yellow {
+        background-color: yellow;
+    }
+    .white {
+        background-color: white;
+    }
+    .black{
+        background-color: black;
+    }
+    .green{
+        background-color: green;
+    }
+    .pink{
+        background-color: pink;
+    }
+    .orange{
+        background-color: orange;
+    }
+    .purple{
+        background-color: purple;
+    }
+    .pixel {
+        border: 1px solid black;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    .btn, input{
+    margin: 5px;
+}
